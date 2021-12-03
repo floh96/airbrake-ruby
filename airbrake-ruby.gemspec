@@ -25,12 +25,6 @@ DESC
 
   s.required_ruby_version = '>= 2.5'
 
-  if defined?(JRuby)
-    s.add_dependency 'rbtree-jruby', '~> 0.2'
-  else
-    s.add_dependency 'rbtree3', '~> 0.6'
-  end
-
   s.add_development_dependency 'rspec', '~> 3'
   s.add_development_dependency 'rspec-its', '~> 1.2'
   s.add_development_dependency 'rake', '~> 13'
